@@ -1,0 +1,87 @@
+.slideshow {
+  width: 600px;
+  height: 100vh;
+  position: relative;
+}
+.card{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.card.active {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.text1{
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 40px;
+  font-family: Tahoma;
+  background-color:whitesmoke;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.text2{
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  color: whitesmoke;
+  background-color: black;
+  font-size: 40px;
+  font-family: Tahoma;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.text3{
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  color: black;
+  background-color:whitesmoke;
+  font-size: 40px;
+  font-family: Tahoma;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.text4{
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  color: blueviolet;
+  background-color:whitesmoke;
+  font-size: 40px;
+  font-family: Tahoma;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.text5{
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translateY(-50%);
+  color: red;
+  background-color:whitesmoke;
+  font-size: 40px;
+  font-family: Tahoma;
+  border: 3px solid black;
+  border-radius:10px;
+}
+.card img{
+  width:300px;
+  justify-items: center;
+  border:7px solid black;
+  background-color: whitesmoke;
+  border-radius:30px;
+}
+.card img:hover{
+  border-radius:30px;
+}
